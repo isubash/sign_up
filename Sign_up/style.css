@@ -1,0 +1,68 @@
+body{
+  background-color: #37306B;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signform{
+  width: 350px;
+  margin: 250px auto;
+  padding: 10px 20px 20px 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.signform h3{
+  text-align: center;
+  color: aquamarine;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  padding-bottom: 2px;
+}
+p{
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+
+}
+.signform .textlabel{
+  display: block;
+}
+.input input{
+  width: 100%;
+  font-size: 1.4em;
+  border-radius: 7px;
+  border-color:  rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  margin: 5px 0 10px;
+  padding: 2px 5px;
+}
+.radio{
+  margin: 10px 10px;
+  padding: auto 20px 20px;
+  cursor: pointer;
+}
+.btn{
+  text-align: center;
+}
+button{
+  background-color: aquamarine;
+  width: 80%;
+  font-size: 18px;
+  color: black;
+  margin-top: 15px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 252, 168);
+  cursor: pointer;
+}
+button:hover{
+  background: #37306B;
+  border: #37306B;
+}
+.radio input{
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
